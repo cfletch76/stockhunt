@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Home, MessageCircle, BarChart2, DollarSign, Database } from 'lucide-react';
+import { Home, MessageCircle, BarChart2, DollarSign } from 'lucide-react';
+// import { Database } from 'lucide-react';  // Commented out unused import
 
 const Header = () => {
   return (
