@@ -35,12 +35,14 @@ const Header = () => {
                 <span>Portfolio</span>
               </Link>
             </li>
+            {/* commenting out IndustryView Link
             <li>
-              <Link to="/bulk" className="flex items-center text-gray-700 hover:text-blue-600">
+              <Link to="/industry" className="flex items-center text-gray-700 hover:text-blue-600">
                 <Database size={20} className="mr-1" />
-                <span>Grid View</span>
+                <span>Industry View</span>
               </Link>
             </li>
+            j*/}
           </ul>
         </nav>
       </div>

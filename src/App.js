@@ -5,7 +5,7 @@ import Dashboard from './components/Dashboard';
 import ChatView from './components/ChatView';
 import AnalysisView from './components/AnalysisView';
 import PortfolioView from './components/PortfolioView';
-import BulkView from './components/BulkView'; // Import the new BulkView component
+import IndustryView from './components/IndustryView'; // Import the new IndustryView component
 
 const App = () => {
   return (
@@ -18,7 +18,7 @@ const App = () => {
             <Route path="/chat" element={<ChatView />} />
             <Route path="/analysis" element={<AnalysisView />} />
             <Route path="/portfolio" element={<PortfolioView />} />
-            <Route path="/bulk" element={<BulkView />} /> {/* Add the new route for BulkView */}
+            <Route path="/industry" element={<IndustryView />} /> {/* Add the new route for IndustrykView */}
           </Routes>
         </main>
       </div>
