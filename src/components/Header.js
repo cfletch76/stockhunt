@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Home, MessageCircle, BarChart2, DollarSign } from 'lucide-react';
+import { Home, MessageCircle, BarChart2, DollarSign, Database } from 'lucide-react';
 
 const Header = () => {
   return (
@@ -33,6 +33,12 @@ const Header = () => {
               <Link to="/portfolio" className="flex items-center text-gray-700 hover:text-blue-600">
                 <DollarSign size={20} className="mr-1" />
                 <span>Portfolio</span>
+              </Link>
+            </li>
+            <li>
+              <Link to="/bulk" className="flex items-center text-gray-700 hover:text-blue-600">
+                <Database size={20} className="mr-1" />
+                <span>Grid View</span>
               </Link>
             </li>
           </ul>
